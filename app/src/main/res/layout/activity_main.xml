@@ -149,7 +149,6 @@
             android:text="Try adding some tasks to see them here" />
     </LinearLayout>
 
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/addNewTaskBtn"
         style="@style/PrimaryButton"
