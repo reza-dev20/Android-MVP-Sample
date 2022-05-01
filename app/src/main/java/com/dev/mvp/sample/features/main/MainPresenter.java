@@ -17,7 +17,9 @@ public class MainPresenter implements MainContract.Presenter{
 
     @Override
     public void onDeleteAllBtnClick() {
-
+        taskDao.deleteAll();
+        view.clearTasks();
+        view.setEmptyStateVisibility(true);
     }
 
     @Override
