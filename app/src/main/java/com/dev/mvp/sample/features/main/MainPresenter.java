@@ -31,7 +31,7 @@ public class MainPresenter implements MainContract.Presenter{
     }
 
     @Override
-    public void onAttack(MainContract.View view) {
+    public void onAttach(MainContract.View view) {
         this.view = view;
         if (!tasks.isEmpty()) {
             view.setEmptyStateVisibility(false);

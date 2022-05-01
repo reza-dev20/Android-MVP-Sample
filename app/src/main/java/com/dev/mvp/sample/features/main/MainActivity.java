@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.TaskI
     public void onLongClick(Task task) {
 
     }
-
     @Override
+
     public void showTasks(List<Task> tasks) {
 
     }
