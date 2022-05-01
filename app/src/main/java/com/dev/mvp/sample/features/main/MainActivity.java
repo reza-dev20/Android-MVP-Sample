@@ -9,7 +9,9 @@ import com.dev.mvp.sample.R;
 import com.dev.mvp.sample.databinding.MainPageBinding;
 import com.dev.mvp.sample.data.model.Task;
 
-public class MainActivity extends AppCompatActivity implements TaskAdapter.TaskItemEventListener {
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity implements TaskAdapter.TaskItemEventListener,MainContract.View {
 
     private TaskAdapter adapter;
     private MainPageBinding binding;
@@ -34,6 +36,36 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.TaskI
 
     @Override
     public void onLongClick(Task task) {
+
+    }
+
+    @Override
+    public void showTasks(List<Task> tasks) {
+
+    }
+
+    @Override
+    public void clearTasks() {
+
+    }
+
+    @Override
+    public void updateTask(Task task) {
+
+    }
+
+    @Override
+    public void addTask(Task task) {
+
+    }
+
+    @Override
+    public void deleteTask(Task task) {
+
+    }
+
+    @Override
+    public void setEmptyStateVisibility(boolean visible) {
 
     }
 }
