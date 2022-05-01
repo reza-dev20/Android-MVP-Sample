@@ -1,4 +1,4 @@
-package com.dev.mvp.sample.main;
+package com.dev.mvp.sample.features.main;
 
 import android.content.Context;
 import android.graphics.Paint;
@@ -14,7 +14,7 @@ import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.dev.mvp.sample.R;
-import com.dev.mvp.sample.model.Task;
+import com.dev.mvp.sample.data.model.Task;
 
 import java.util.ArrayList;
 import java.util.List;
